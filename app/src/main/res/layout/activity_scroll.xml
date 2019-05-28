@@ -35,7 +35,7 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:id="@+id/imageView2"
+                    android:id="@+id/imageView"
                     android:layout_width="104dp"
                     android:layout_height="98dp"
                     android:layout_marginStart="8dp"
@@ -50,7 +50,7 @@
                     app:srcCompat="@drawable/cloud" />
 
                 <TextView
-                    android:id="@+id/kondisiCuaca"
+                    android:id="@+id/txtDescription"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
@@ -63,10 +63,10 @@
                     android:textSize="36dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+                    app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
                 <TextView
-                    android:id="@+id/derajatCuaca"
+                    android:id="@+id/txtCelsius"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
@@ -79,7 +79,7 @@
                     android:textSize="36dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/kondisiCuaca" />
+                    app:layout_constraintTop_toBottomOf="@+id/txtDescription" />
             </android.support.constraint.ConstraintLayout>
 
         </android.support.design.widget.CollapsingToolbarLayout>
